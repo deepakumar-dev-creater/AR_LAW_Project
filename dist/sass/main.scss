@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+// Varibles 
+
+$primaryFont: Domine;
+$secondaryFont: Montserrat;
+$bannerColor: #A9A7A4;
+
+.front-banner
+{
+    min-height: 600px;
+    background: $bannerColor;
+}
+
+.navbar-brand
+{
+  color: #000;
+  font-family: $primaryFont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2px;
+}
+
+.nav-link
+{
+  color:#000;
+  font-family: $secondaryFont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1px;
+  margin-right: 13px;
+}
+
+.navbar-btn{
+    padding-top: 8px;
+    border-radius: 0px !important;
+    padding : 2px 8px;
+    margin-top: 8px;
+    color: #000;
+    font-family: $secondaryFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar-btn:hover
+{
+    border: 1px solid black;
+}
+
+.navbar-btn:focus
+{
+    box-shadow: none;
+}
+
+.blur-background{
+  position: absolute;
+  background: rgba(19, 20, 19, 0.19);
+  filter: blur(7.5px);
+  height: 100%;
+  width: 100%;
+}
+
+
+.navbar-head 
+{
+  position: relative;
+  padding: 3px 0px;
+
+} 
