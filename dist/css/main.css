@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Donegal+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.front-banner {
+  min-height: 600px;
+  background: #a9a7a4;
+}
+
+.navbar-brand {
+  color: #000;
+  font-family: Domine;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2px;
+}
+
+.nav-link {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1px;
+  margin-right: 13px;
+}
+
+.navbar-btn {
+  padding-top: 8px;
+  border-radius: 0px !important;
+  padding: 2px 8px;
+  margin-top: 8px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-btn:hover {
+  border: 1px solid black;
+}
+
+.navbar-btn:focus {
+  box-shadow: none;
+}
+
+.blur-background {
+  position: absolute;
+  background: rgba(19, 20, 19, 0.19);
+  filter: blur(7.5px);
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-head {
+  position: relative;
+}
+
+/*------------------------------ Navbar ------------------------------*/
+/*------------------------------ Hero-Section ------------------------------*/
+.advocate-label {
+  color: #000;
+  font-family: Donegal One;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 8.05px;
+}
+
+.advocate-badge {
+  background: rgba(204, 204, 204, 0.6);
+  padding: 5px 5px 5px 10px;
+}
+
+.banner-focus-text {
+  color: #000;
+  font-family: Donegal One;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 19px;
+}
+
+.banner-box {
+  width: 570px;
+}
+
+.banner-para {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 129.63% */
+  letter-spacing: 2.43px;
+}
+
+.front-banner-ctabtn {
+  border: 1px solid #000;
+  background: rgba(204, 204, 204, 0.6);
+  color: var(--Black, #000);
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 6px 10px;
+}
+
+.front-banner-ctabtn:hover {
+  background-color: #000;
+  border: 1px solid black;
+}
+
+.btn-spacer {
+  margin-top: 52px;
+}
+
+/* ------------------------------ Hero Section ------------------------ */
+/* ------------------------------ Services Section -------------------- */
+.services-spacer {
+  margin-top: 115px;
+}
+
+.service-label {
+  color: #90350b;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+}
+
+.service-caption {
+  color: #000;
+  font-family: Donegal One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.service-hammer-img {
+  margin-left: 35px;
+}
+
+.card-section {
+  margin-top: 90px;
+}
+.card-section .card {
+  width: 341px;
+  padding: 8px;
+  margin-right: 100px;
+}
+.card-section .card-head {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+.card-section .card-text {
+  color: #5b4524;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.65px;
+  text-transform: uppercase;
+}
+
+/* ------------------------------ Services Section -------------------- */
+/* ------------------------------ Testimonial Section -------------------- */
+.testimonial-label {
+  color: #90350b;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.testimonial-caption {
+  color: #000;
+  font-family: Donegal One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.testimonial-section {
+  margin-top: 168px;
+}
+.testimonial-section .card {
+  width: 335px;
+  margin-left: 94px;
+}
+.testimonial-section .person-name {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.testimonial-section .card-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-variant: all-small-caps;
+  letter-spacing: 0.45px;
+}
+.testimonial-section .card-spacer {
+  margin-top: 110px;
+}
+
+/* ------------------------------ Testimonial Section -------------------- */
+/* ------------------------------ Services Section -------------------- */
+.contact-section {
+  margin-top: 60px;
+}
+.contact-section .card {
+  width: 300px;
+  margin-right: 128px;
+  height: 190px;
+}
+.contact-section .contact-card {
+  margin-top: 60px;
+}
+.contact-section .card-title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+}
+.contact-section .contact-location {
+  margin-top: 20px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+
+#footer {
+  margin-top: auto;
+}
+
+.footer-section {
+  margin-top: 65px;
+  background-color: #a9a7a4;
+}
+.footer-section .footer {
+  padding: 30px 10px;
+}
+.footer-section .footer-description {
+  color: #000;
+  font-family: Domine;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-btn {
+    padding: 2px 0px;
+  }
+  .navbar-btn:hover {
+    border: 1px solid transparent;
+    color: #000;
+    font-weight: 600;
+    transition: font-weight 0.5s ease-out; /* Add a transition for font-weight */
+  }
+  #home {
+    padding-top: 50px;
+  }
+  .advocate-label {
+    font-size: 10px;
+  }
+  .banner-focus-text {
+    font-size: 32px;
+  }
+  .banner-para {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .btn-spacer {
+    margin-top: 30px;
+  }
+  .front-banner-right {
+    margin-top: 10px;
+  }
+  .text-end {
+    text-align: center !important;
+  }
+  .text-end img {
+    width: 40%;
+  }
+  .banner-box {
+    width: 100%;
+  }
+  .card-title svg {
+    width: 10%;
+  }
+  .card-section .card-head {
+    font-size: 15px;
+  }
+  .testimonial-section {
+    margin-top: 30px;
+  }
+  .testimonial-label {
+    font-size: 15px;
+  }
+  .testimonial-caption {
+    font-size: 16px;
+  }
+  .testimonial-section .card {
+    margin-left: 0px;
+  }
+  .testimonial-section .card-spacer {
+    margin-top: 40px;
+  }
+  .card-section .card-text {
+    font-size: 10px;
+  }
+  .services-spacer {
+    margin-top: 60px;
+  }
+  .card-section .card {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .service-label {
+    margin-bottom: -10px;
+    font-size: 15px;
+  }
+  .wrap {
+    justify-content: start;
+  }
+  .service-caption {
+    font-size: 16px;
+  }
+  .service-hammer-img {
+    margin-left: 0px;
+    width: 26%;
+  }
+  .contact-section .card {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .footer-wrapper {
+    justify-content: center !important;
+  }
+  .navbar-brand {
+    font-size: 16px;
+  }
+  .footer-section .footer-description {
+    font-size: 12px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
