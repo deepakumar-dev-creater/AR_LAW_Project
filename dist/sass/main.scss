@@ -16,7 +16,19 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  scroll-behavior: smooth;
 }
+.card
+{
+  box-shadow: 0px 2px 4px 3px rgba(169, 167, 164, 0.35);
+  border: 1px solid transparent;
+}
+.card:hover 
+{
+  background-color:  #a9a7a4;
+  color: white;
+}
+
 .front-banner {
   min-height: 600px;
   background: $bannerColor;
@@ -156,7 +168,7 @@ body {
   line-height: normal;
   letter-spacing: 6px;
   text-transform: uppercase;
-  margin-bottom: -20px;
+  margin-bottom: -36px;
 }
 .service-caption {
   color: #000;
@@ -228,6 +240,7 @@ body {
   line-height: normal;
   letter-spacing: 6px;
   text-transform: uppercase;
+  margin-bottom: -20px;
 }
 .testimonial-caption {
   color: #000;
@@ -278,7 +291,7 @@ body {
 /* ------------------------------ Services Section -------------------- */
 
 .contact-section {
-  margin-top: 60px;
+  margin-top: 100px;
 
   .card {
     width: 300px;
