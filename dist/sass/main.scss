@@ -333,7 +333,7 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .navbar-btn {
     padding: 3px 7px 3px 7px !important;
     margin-left: -11px;
@@ -482,7 +482,15 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 640px) {
+  .img-wrap
+  {
+    flex-wrap: wrap;
+  }
+  .btns-wrap
+  {
+    justify-content: center;
+  }
   .service-label
   {
     margin-bottom: 0px;
@@ -513,9 +521,7 @@ body {
   {
     margin-left:-12px
   }
-  .service-caption {
-      font-size: 24px;
-  }
+
   .service-label
   {
     font-size: 16px;
@@ -550,10 +556,7 @@ body {
     font-size: 16px;
     letter-spacing: 3px;
   }
-  .testimonial-caption
-  {
-    font-size: 24px;
-  }
+
   .contact-section .card
   {
     width: 100%;
@@ -564,10 +567,38 @@ body {
   {
     justify-content: center !important;
   }
+  .contact-section .contact-card {
+    margin-top: 20px;
+  }
+  .testimonial-section .card
+  {
+    width: auto;
+  }
 }
 
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 640px) and (max-width: 900px) {
+  .banner-focus-text
+  {
+    font-size: 32px;
+  }
+  .banner-box {
+    width: 100%;
+  }
+  .banner-para
+  {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .front-banner-ctabtn
+  {
+    font-size: 14px !important;
+  }
+  .btn-spacer
+  {
+    margin-top: 30px;
+  }
   .navbar-btn
   {
     margin-left: -12px;
@@ -636,8 +667,118 @@ body {
   {
     justify-content: space-between !important;
   }
+  .card-section .card {
+    margin-right: 30px;
+  }
+
+  .testimonial-section .card
+  {
+    margin-left: 0px;
+  }
+
+  .contact-section .card
+  {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1224px) {
+  .banner-focus-text
+  {
+    font-size: 40px;
+  }
+  .banner-para {
+    font-size: 25px;
+  }
+  .testimonial-section .card
+  {
+    margin-left: 0px;
+  }
+  .card-section .card {
+    margin-right: 30px;
+  }
+  .contact-section .card {
+    margin-right: 10px;
+  }
 }
 
+@media (min-width: 640px) and (max-width: 680px) {
+  .front-banner img
+  {
+    width: 34% !important;
+  }
+  .front-banner .img-wrap
+  {
+    margin-top: 20px;
+  text-align: center !important;
+  }
+  .service-label
+  {
+    margin-bottom: -25px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .card-section .card
+  {
+    margin-right: 10px;
+  }
+  .card-section .card-text
+  {
+    font-size: 12px;
+  }
+  .card-title svg {
+    width: 30%;
+  }
+  .services-sec .card-body
+  {
+    padding: 2px;
+  }
+  .card-section .card-head {
+font-size: 11px;
+  }
+  .testimonial-section
+  {
+    margin-top: 40px;
+  }
+  .testimonial-card-wrap
+  {
+    display:flex;
+  }
+  .testimonial-section .card {
+    width: 49%;
+    height: 180px;
+    margin-left: 10px;
+  }
+  .testimonial-section .card-spacer
+  {
+    margin-top: 0px
+  }
+  .reachme-label
+  {
+    font-size: 15px;
+    margin-bottom: -15px;
+  }
+  .testimonial-caption
+
+  {
+    text-align: left;
+  }
+  .contact-link
+  {
+    font-size: 12px;
+  }
+  .footer-wrapper
+  {
+    justify-content: center !important;
+  }
+  .footer-section .footer-description
+  {
+    font-size: 14px;
+  }
+  .footer-nav
+  {
+    font-size: 14px;
+  }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   
