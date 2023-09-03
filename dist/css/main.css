@@ -111,7 +111,7 @@ body {
 }
 
 .front-banner-ctabtn {
-  border: 1px solid #000 !important;
+  border: 1px solid transparent !important;
   background: rgba(204, 204, 204, 0.6) !important;
   color: var(--Black, #000) !important;
   text-align: right;
@@ -127,6 +127,11 @@ body {
 .front-banner-ctabtn:hover {
   background-color: #000;
   border: 1px solid black;
+}
+
+.front-banner-ctabtn:focus {
+  border: 1px solid transparent !important;
+  box-shadow: 0 0 0 0.25rem transparent !important;
 }
 
 .btn-spacer {
@@ -194,7 +199,6 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.65px;
-  text-transform: uppercase;
 }
 
 /* ------------------------------ Services Section -------------------- */
@@ -243,11 +247,10 @@ body {
 .testimonial-section .card-text {
   color: #000;
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  font-variant: all-small-caps;
   letter-spacing: 0.45px;
 }
 .testimonial-section .card-spacer {
@@ -321,6 +324,9 @@ body {
     font-weight: 500;
     transition: font-weight 0.5s ease-out; /* Add a transition for font-weight */
   }
+  .front-banner-ctabtn {
+    font-size: 12px !important;
+  }
   #home {
     padding-top: 50px;
   }
@@ -367,12 +373,19 @@ body {
   }
   .testimonial-section .card {
     margin-left: 0px;
+    width: 100%;
   }
   .testimonial-section .card-spacer {
     margin-top: 40px;
   }
-  .card-section .card-text {
-    font-size: 10px;
+  .card-title .card-text {
+    font-size: 12px;
+  }
+  .testimonial-section .card-text {
+    font-size: 14px;
+  }
+  .testimonial-section .person-name {
+    font-size: 15px;
   }
   .services-spacer {
     margin-top: 60px;
@@ -380,6 +393,7 @@ body {
   .card-section .card {
     margin-right: 0px;
     margin-bottom: 30px;
+    width: 100%;
   }
   .service-label {
     margin-bottom: -10px;
@@ -408,6 +422,9 @@ body {
   }
   .footer-section .footer-description {
     font-size: 12px;
+  }
+  .card-title #star {
+    width: auto;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

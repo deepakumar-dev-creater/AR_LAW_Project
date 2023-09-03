@@ -116,7 +116,7 @@ body {
 }
 
 .front-banner-ctabtn {
-  border: 1px solid #000 !important;
+  border: 1px solid transparent !important;
   background: rgba(204, 204, 204, 0.6) !important;
   color: var(--Black, #000) !important;
   text-align: right;
@@ -131,6 +131,10 @@ body {
 .front-banner-ctabtn:hover {
   background-color: #000;
   border: 1px solid black;
+}
+.front-banner-ctabtn:focus {
+  border: 1px solid transparent !important;
+  box-shadow: 0 0 0 0.25rem transparent !important;
 }
 .btn-spacer {
   margin-top: 52px;
@@ -197,7 +201,6 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.65px;
-    text-transform: uppercase;
   }
 }
 
@@ -249,11 +252,10 @@ body {
   .card-text {
     color: #000;
     font-family: $secondaryFont;
-    font-size: 15px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-variant: all-small-caps;
     letter-spacing: 0.45px;
   }
 
@@ -320,34 +322,28 @@ body {
   }
 }
 
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
-  .navbar-btn
-  {
+  .navbar-btn {
     padding: 2px 0px !important;
   }
-  .navbar-btn:hover
-  {
+  .navbar-btn:hover {
     border: 1px solid transparent;
     color: #000 !important;
     font-weight: 500;
 
     transition: font-weight 0.5s ease-out; /* Add a transition for font-weight */
-  }  
-
-  #home
-  {
+  }
+  .front-banner-ctabtn {
+    font-size: 12px !important;
+  }
+  #home {
     padding-top: 50px;
   }
-  .advocate-label
-  {
+  .advocate-label {
     font-size: 10px;
   }
-  .banner-focus-text
-  {
+  .banner-focus-text {
     font-size: 32px;
   }
   .banner-para {
@@ -355,113 +351,110 @@ body {
     line-height: 25px;
     letter-spacing: 1px;
   }
-  .btn-spacer
-  {
+  .btn-spacer {
     margin-top: 30px;
   }
-  .front-banner-right
-  {
+  .front-banner-right {
     margin-top: 10px;
   }
-  .text-end
-  {
+  .text-end {
     text-align: center !important;
   }
-  .text-end img
-  {
+  .text-end img {
     width: 40%;
   }
-  .banner-box
-  {
+  .banner-box {
     width: 100%;
   }
-  .card-title svg 
-  {
+  .card-title svg {
     width: 10%;
   }
   .card-section .card-head {
     font-size: 15px;
   }
-  .testimonial-section
-  {
-    margin-top: 30px ;
+  .testimonial-section {
+    margin-top: 30px;
   }
-  .testimonial-label
-  {
+  .testimonial-label {
     font-size: 15px;
   }
-  .testimonial-caption
-  {
+  .testimonial-caption {
     font-size: 16px;
   }
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     margin-left: 0px;
+    width: 100%;
   }
   .testimonial-section .card-spacer {
     margin-top: 40px;
   }
-  .card-section .card-text {
-    font-size: 10px ;
+  .card-title .card-text {
+    font-size: 12px;
   }
-  .services-spacer
+
+  .testimonial-section .card-text {
+    font-size: 14px;
+  }
+  .testimonial-section .person-name
   {
+    font-size: 15px;
+  }
+  .services-spacer {
     margin-top: 60px;
   }
-  .card-section .card
-  {
+  .card-section .card {
     margin-right: 0px;
     margin-bottom: 30px;
+    width: 100%;
   }
-  .service-label
-  {
+  .service-label {
     margin-bottom: -10px;
     font-size: 15px;
   }
-  .wrap
-  {
+  .wrap {
     justify-content: start;
   }
-  .service-caption
-  {
+  .service-caption {
     font-size: 16px;
   }
-  .service-hammer-img
-  {
+  .service-hammer-img {
     margin-left: 0px;
     width: 26%;
   }
 
-  .contact-section .card
-  {
+  .contact-section .card {
     width: 100%;
     margin-right: 0px;
     margin-top: 30px;
   }
-  .footer-wrapper
-  {
-  justify-content: center !important;
+  .footer-wrapper {
+    justify-content: center !important;
   }
-  .navbar-brand
-  {
+  .navbar-brand {
     font-size: 16px;
   }
-  .footer-section .footer-description
-  {
+  .footer-section .footer-description {
     font-size: 12px;
+  }
+
+  .card-title #star
+  {
+    width: auto;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
