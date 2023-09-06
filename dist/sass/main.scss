@@ -18,14 +18,12 @@ body {
   flex-direction: column;
   scroll-behavior: smooth;
 }
-.card
-{
+.card {
   box-shadow: 0px 2px 4px 3px rgba(169, 167, 164, 0.35);
   border: 1px solid transparent;
 }
-.card:hover 
-{
-  background-color:  #a9a7a4;
+.card:hover {
+  background-color: #a9a7a4;
   color: white;
 }
 
@@ -472,82 +470,65 @@ body {
     margin-top: 40px;
   }
 
-  .contact-section .card-title
-  {
+  .contact-section .card-title {
     font-size: 15px;
   }
-  .contact-section .contact-location
-  {
+  .contact-section .contact-location {
     font-size: 12px;
   }
-  .contact-section .card
-  {
-    height : auto
+  .contact-section .card {
+    height: auto;
   }
-  .front-banner img
-  {
+  .front-banner img {
     width: 40%;
   }
-  .front-banner .img-wrap
-  {
+  .front-banner .img-wrap {
     text-align: center;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 640px) {
-  .img-wrap
-  {
+  .img-wrap {
     flex-wrap: wrap;
   }
-  .btns-wrap
-  {
+  .btns-wrap {
     justify-content: center;
   }
-  .service-label
-  {
+  .service-label {
     margin-bottom: 0px;
   }
-  .banner-focus-text
-  {
+  .banner-focus-text {
     font-size: 32px;
   }
-  .banner-para
-  {
+  .banner-para {
     font-size: 20px;
     line-height: 28px;
   }
-  .btn-spacer
-  {
+  .btn-spacer {
     margin-bottom: 36px;
   }
-  .front-banner-ctabtn
-  {
+  .front-banner-ctabtn {
     font-size: 12px !important  ;
     padding: 5px 9px !important;
   }
-  .front-banner img
-  {
+  .front-banner img {
     width: 40%;
   }
-  .navbar-btn
-  {
-    margin-left:-12px
+  .navbar-btn {
+    margin-left: -12px;
   }
 
-  .service-label
-  {
+  .service-label {
     font-size: 16px;
     margin-bottom: -12px;
   }
-  .card-section .card
-  {
+  .card-section .card {
     width: 100%;
     margin-right: auto;
     margin-top: 10px;
   }
-  .card-wrap
-  {
+  .card-wrap {
     justify-content: center;
   }
 
@@ -555,155 +536,166 @@ body {
     width: 100%;
     margin-left: auto;
   }
-  .testimonial-section .card-spacer
-  {
+  .testimonial-section .card-spacer {
     margin-top: 20px;
   }
 
-  .testimonial-section
-  {
+  .testimonial-section {
     margin-top: 50px;
   }
-  .testimonial-label
-  {
+  .testimonial-label {
     font-size: 16px;
     letter-spacing: 3px;
   }
 
-  .contact-section .card
-  {
+  .contact-section .card {
     width: 100%;
     margin-right: 0px;
     margin-bottom: 30px;
   }
-  .footer-wrapper
-  {
+  .footer-wrapper {
     justify-content: center !important;
   }
   .contact-section .contact-card {
     margin-top: 20px;
   }
+  .testimonial-section .card {
+    width: auto;
+  }
+  .reachme-label
+  {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+  }
+  .testimonial-caption
+  {
+    font-size: 14px;
+  }
+  .contact-card
+  {
+    flex-wrap: wrap;
+  }
+  .contact-section .contact-card {
+    margin-top: 0px;
+  }
+  .contact-section .card
+  {
+    margin-bottom: 3px;
+  }
+  .btns-wrap
+  {
+    justify-content: left;
+  }
+  .card-section .card {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
   .testimonial-section .card
   {
-    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-section
+  {
+    margin-top: 50px;
+  }
+  .testimonial-section .card
+  {
+    height: 150px;
   }
 }
 
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 640px) and (max-width: 900px) {
-  .banner-focus-text
-  {
+  .banner-focus-text {
     font-size: 32px;
   }
   .banner-box {
     width: 100%;
   }
-  .banner-para
-  {
+  .banner-para {
     font-size: 14px;
     line-height: 20px;
   }
-  .front-banner-ctabtn
-  {
+  .front-banner-ctabtn {
     font-size: 14px !important;
   }
-  .btn-spacer
-  {
+  .btn-spacer {
     margin-top: 30px;
   }
-  .navbar-btn
-  {
+  .navbar-btn {
     margin-left: -12px;
   }
-  .front-banner img
-  {
+  .front-banner img {
     width: 50%;
   }
-  .front-banner
-  {
+  .front-banner {
     min-height: auto;
   }
-  .img-wrap
-  {
+  .img-wrap {
     text-align: right !important;
   }
-  .card-section .card-head
-  {
+  .card-section .card-head {
     font-size: 12px;
   }
-  .card-section .card-text
-  {
+  .card-section .card-text {
     font-size: 12px;
   }
-  .card-section .card
-  {
+  .card-section .card {
     width: 30%;
   }
-  .testimonial-section .person-name
-  {
+  .testimonial-section .person-name {
     font-size: 16px;
   }
-  .testimonial-section .card-text
-  {
+  .testimonial-section .card-text {
     font-size: 12px;
   }
-  .contact-section .card
-  {
+  .contact-section .card {
     width: 30%;
   }
-  .contact-section .contact-card
-  {
+  .contact-section .contact-card {
     justify-content: space-between;
   }
-  .testimonial-caption
-  {
+  .testimonial-caption {
     font-size: 20px;
   }
-  .service-caption
-  {
+  .service-caption {
     font-size: 20px;
   }
-  .testimonial-label
-  {
+  .testimonial-label {
     margin-bottom: -5px;
   }
-  .service-label
-  {
-    margin-bottom : -56px
+  .service-label {
+    margin-bottom: -56px;
   }
-  .reachme-label{
+  .reachme-label {
     font-size: 20px;
     margin-bottom: -40px;
   }
-  .footer-wrapper
-  {
+  .footer-wrapper {
     justify-content: space-between !important;
   }
   .card-section .card {
     margin-right: 30px;
   }
 
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     margin-left: 0px;
   }
 
-  .contact-section .card
-  {
+  .contact-section .card {
     margin-right: 0px;
   }
 }
 @media (min-width: 901px) and (max-width: 1224px) {
-  .banner-focus-text
-  {
+  .banner-focus-text {
     font-size: 40px;
   }
   .banner-para {
     font-size: 25px;
   }
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     margin-left: 0px;
   }
   .card-section .card {
@@ -715,86 +707,69 @@ body {
 }
 
 @media (min-width: 640px) and (max-width: 680px) {
-  .front-banner img
-  {
+  .front-banner img {
     width: 34% !important;
   }
-  .front-banner .img-wrap
-  {
+  .front-banner .img-wrap {
     margin-top: 20px;
-  text-align: center !important;
+    text-align: center !important;
   }
-  .service-label
-  {
+  .service-label {
     margin-bottom: -25px;
     font-size: 18px;
     letter-spacing: 3px;
   }
-  .card-section .card
-  {
+  .card-section .card {
     margin-right: 10px;
   }
-  .card-section .card-text
-  {
+  .card-section .card-text {
     font-size: 12px;
   }
   .card-title svg {
     width: 30%;
   }
-  .services-sec .card-body
-  {
+  .services-sec .card-body {
     padding: 2px;
   }
   .card-section .card-head {
-font-size: 11px;
+    font-size: 11px;
   }
-  .testimonial-section
-  {
+  .testimonial-section {
     margin-top: 40px;
   }
-  .testimonial-card-wrap
-  {
-    display:flex;
+  .testimonial-card-wrap {
+    display: flex;
   }
   .testimonial-section .card {
     width: 49%;
     height: 180px;
     margin-left: 10px;
   }
-  .testimonial-section .card-spacer
-  {
-    margin-top: 0px
+  .testimonial-section .card-spacer {
+    margin-top: 0px;
   }
-  .reachme-label
-  {
+  .reachme-label {
     font-size: 15px;
     margin-bottom: -15px;
   }
-  .testimonial-caption
-
-  {
+  .testimonial-caption {
     text-align: left;
   }
-  .contact-link
-  {
+  .contact-link {
     font-size: 12px;
   }
-  .footer-wrapper
-  {
+  .footer-wrapper {
     justify-content: center !important;
   }
-  .footer-section .footer-description
-  {
+  .footer-section .footer-description {
     font-size: 14px;
   }
-  .footer-nav
-  {
+  .footer-nav {
     font-size: 14px;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

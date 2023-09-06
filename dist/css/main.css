@@ -544,6 +544,40 @@ body {
   .testimonial-section .card {
     width: auto;
   }
+  .reachme-label {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+  }
+  .testimonial-caption {
+    font-size: 14px;
+  }
+  .contact-card {
+    flex-wrap: wrap;
+  }
+  .contact-section .contact-card {
+    margin-top: 0px;
+  }
+  .contact-section .card {
+    margin-bottom: 3px;
+  }
+  .btns-wrap {
+    justify-content: left;
+  }
+  .card-section .card {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .testimonial-section .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-section {
+    margin-top: 50px;
+  }
+  .testimonial-section .card {
+    height: 150px;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 640px) and (max-width: 900px) {
