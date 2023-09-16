@@ -294,7 +294,6 @@ body {
   .card {
     width: 300px;
     margin-right: 128px;
-    // height: 190px;
   }
   .space-para
   {
@@ -309,12 +308,14 @@ body {
   }
   .card-body
   {
-    padding: 10px 2px 3px 10px;
+    padding: 12px 2px 3px 12px;
   }
   a
   {
     color: #000;
+    font-size: 17px;
   }
+  
   .card-title {
     color: #000;
     font-family: $secondaryFont;
