@@ -288,10 +288,21 @@ body {
 .contact-section .card {
   width: 300px;
   margin-right: 128px;
-  height: 190px;
+}
+.contact-section .space-para {
+  margin-top: 15px;
+}
+.contact-section .card:hover p {
+  color: black;
 }
 .contact-section .contact-card {
   margin-top: 60px;
+}
+.contact-section .card-body {
+  padding: 10px 2px 3px 10px;
+}
+.contact-section a {
+  color: #000;
 }
 .contact-section .card-title {
   color: #000;
@@ -314,6 +325,10 @@ body {
   letter-spacing: 0.42px;
   text-transform: capitalize;
   margin-bottom: 0px;
+}
+
+.contact-link {
+  font-size: 14px;
 }
 
 #footer {
