@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Donegal+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 // Varibles
 
-$primaryFont: Domine;
-$secondaryFont: Montserrat;
+$primaryFont: Inter;
+$secondaryFont: Inter;
 $optionalFont: Donegal One;
-$bannerColor: #a9a7a4;
+$bannerColor: rgba(169, 167, 164, 0.5490196078);
 
 html,
 body {
@@ -44,7 +44,7 @@ body {
 
 .nav-link {
   color: #000;
-  font-family: $secondaryFont;
+  font-family: $primaryFont;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -52,22 +52,28 @@ body {
   margin-top: 1px;
   margin-right: 13px;
 }
-
+.navbar-menu-wrapp
+{
+  margin-right: 10%;
+}
 .navbar-btn {
-  padding-top: 8px;
-  border-radius: 0px !important;
-  padding: 2px 8px;
+  border-radius: 10px !important;
+  padding: 16px 16px 15px 15px;
   margin-top: 8px;
   color: #000;
-  font-family: $secondaryFont;
-  font-size: 18px;
+  font-family: $primaryFont;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  background-color: #ffffff69;
+  border: 1px solid #0003 !important;
+
 }
 
 .navbar-btn:hover {
-  border: 1px solid black !important;
+  border: 1px solid #000 !important;
+  background-color: rgba(204, 204, 204, 0.6);
 }
 
 .navbar-btn:focus {
@@ -99,8 +105,10 @@ body {
   letter-spacing: 8.05px;
 }
 .advocate-badge {
-  background: rgba(204, 204, 204, 0.6);
+  background: #ffffff69;
   padding: 5px 5px 5px 10px;
+  font-size: 20px;
+  font-family: $optionalFont;
 }
 .banner-focus-text {
   color: #000;
@@ -117,7 +125,7 @@ body {
 
 .banner-para {
   color: #000;
-  font-family: $secondaryFont;
+  font-family: $primaryFont;
   font-size: 27px;
   font-style: normal;
   font-weight: 400;
@@ -147,7 +155,7 @@ body {
   box-shadow: 0 0 0 0.25rem transparent !important;
 }
 .btn-spacer {
-  margin-top: 52px;
+  margin-top: 0px;
 }
 
 /* ------------------------------ Hero Section ------------------------ */
@@ -159,18 +167,17 @@ body {
 }
 .service-label {
   color: #90350b;
-  font-family: $secondaryFont;
+  font-family: $primaryFont;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 6px;
   text-transform: uppercase;
-  margin-bottom: -36px;
 }
 .service-caption {
   color: #000;
-  font-family: $optionalFont;
+  font-family: $primaryFont;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -182,19 +189,35 @@ body {
 .service-hammer-img {
   margin-left: 35px;
 }
-
+.shaper-service
+{
+  border-radius: 10px 151px 0px 0px;
+  background: #F0EBE4;
+  padding: 74px 0px 41px 55px;
+}
 .card-section {
   margin-top: 90px;
 
   .card {
     width: 341px;
+    height: 302px;
     padding: 8px;
     margin-right: 100px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow:none !important
   }
-
+  .card:hover
+  {
+    background-color: #a9a7a48c;
+  }
+  .third-card
+  {
+    margin-right:50px
+  }
   .card-head {
     color: #000;
-    font-family: $secondaryFont;
+    font-family: $primaryFont;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -204,23 +227,133 @@ body {
     margin-top: 13px;
   }
   .card-text {
-    color: #5b4524;
-    font-family: $secondaryFont;
-    font-size: 15px;
+    color: #000;
+    font-family: $primaryFont;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.65px;
+    line-height: 26px;
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+  }
+  .title-spacer {
+    margin-top: 20px;
+  }
+  .title-word-spacer
+  {
+    margin-top: 32px;
+  }
+  .title-text-spacer
+  {
+    margin-top: 24px;
+  }
+  .title-word-spacer-2
+  {
+    margin-top: 38px;
   }
 }
 
 /* ------------------------------ Services Section -------------------- */
 
+
+/* ------------------------------ AboutMe Section -------------------- */
+
+.about-me-img
+{
+  height: 400px;
+  width: 350px;
+}
+
+.about-heading
+{
+  color: #000;
+  font-family: $primaryFont;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.about-description
+{
+  color: #000;
+  font-family: $primaryFont;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 138.095% */
+  letter-spacing: 1.05px;
+  margin-top: 33px;
+  width: 542px;
+}
+.Consultation-btn
+{
+  color: #FFF;
+  text-align: right;
+  font-family: $primaryFont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #B96117;
+  padding: 16px 16px 17px 16px;
+}
+.Consultation-btn:hover
+{
+  background: transparent;
+  border: 1px solid #000;
+}
+.Consultation-spacer
+{
+  margin-top: 37px;
+}
+.abt-info
+{
+  margin-top: 46px;
+}
+.about-big-text
+{
+  color: #000;
+  text-align: left;
+  font-family: $primaryFont;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.about-small-text
+{
+  color: #000;
+  text-align: right;
+  font-family: $primaryFont;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.liner
+{
+  height: 53px;
+  margin-top: 6px;
+  margin-left: 28px;
+  margin-right: 28px;
+  border-right: 1px solid #000;
+}
+/* ------------------------------ AboutMe Section -------------------- */
+
+
+
 /* ------------------------------ Testimonial Section -------------------- */
 
 .testimonial-label {
   color: #90350b;
-  font-family: $secondaryFont;
+  font-family: $primaryFont;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -231,14 +364,13 @@ body {
 
 .reachme-label {
   color: #90350b;
-  font-family: $secondaryFont;
+  font-family: $primaryFont;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 6px;
   text-transform: uppercase;
-  margin-bottom: -20px;
 }
 .testimonial-caption {
   color: #000;
@@ -261,7 +393,7 @@ body {
   .person-name {
     color: #000;
     text-align: center;
-    font-family: $secondaryFont;
+    font-family: $primaryFont;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -272,7 +404,7 @@ body {
   }
   .card-text {
     color: #000;
-    font-family: $secondaryFont;
+    font-family: $primaryFont;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -308,7 +440,11 @@ body {
   }
   .card-body
   {
-    padding: 12px 2px 3px 12px;
+    padding: 12px 2px 10px 12px;
+  }
+  .card-word
+  {
+    font-size: 18px;
   }
   a
   {
@@ -318,7 +454,7 @@ body {
   
   .card-title {
     color: #000;
-    font-family: $secondaryFont;
+    font-family: $primaryFont;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -329,7 +465,7 @@ body {
   .contact-location {
     margin-top: 20px;
     color: #000;
-    font-family: $secondaryFont;
+    font-family: $primaryFont;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -367,7 +503,6 @@ body {
 @media only screen and (max-width: 640px) {
   .navbar-btn {
     padding: 3px 7px 3px 7px !important;
-    margin-left: -11px;
   }
   .navbar-btn:hover {
     border: 1px solid transparent;
@@ -452,7 +587,6 @@ body {
     width: 100%;
   }
   .service-label {
-    margin-bottom: -20px;
     font-size: 15px;
     letter-spacing: 2px;
   }
@@ -536,12 +670,11 @@ body {
     width: 40%;
   }
   .navbar-btn {
-    margin-left: -12px;
+    font-size: 20px;
   }
 
   .service-label {
     font-size: 16px;
-    margin-bottom: -12px;
   }
   .card-section .card {
     width: 100%;
@@ -644,9 +777,7 @@ body {
   .btn-spacer {
     margin-top: 30px;
   }
-  .navbar-btn {
-    margin-left: -12px;
-  }
+
   .front-banner img {
     width: 50%;
   }
@@ -686,12 +817,9 @@ body {
   .testimonial-label {
     margin-bottom: -5px;
   }
-  .service-label {
-    margin-bottom: -56px;
-  }
+
   .reachme-label {
     font-size: 20px;
-    margin-bottom: -40px;
   }
   .footer-wrapper {
     justify-content: space-between !important;
@@ -735,7 +863,6 @@ body {
     text-align: center !important;
   }
   .service-label {
-    margin-bottom: -25px;
     font-size: 18px;
     letter-spacing: 3px;
   }
@@ -770,7 +897,6 @@ body {
   }
   .reachme-label {
     font-size: 15px;
-    margin-bottom: -15px;
   }
   .testimonial-caption {
     text-align: left;
