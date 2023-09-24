@@ -796,14 +796,14 @@ body {
     justify-content: center;
   }
   .card-section .card {
-    max-width: 60% !important;
+    max-width: 96% !important;
     margin-right: 0px !important;
   }
   .testimonial-section .card {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 0px;
-    max-width: 60%;
+    max-width: 96%;
     margin-left: 0px !important;
   }
   .contact-section {
