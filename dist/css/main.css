@@ -839,6 +839,13 @@ body {
     padding: 74px 0px 41px 10px;
   }
 }
+@media (min-width: 640px) and (max-width: 680px) {
+  .testimonial-section .card {
+    height: auto !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 @media (min-width: 901px) and (max-width: 1224px) {
   .banner-focus-text {
     font-size: 40px;
@@ -899,7 +906,7 @@ body {
     min-height: auto;
   }
   .img-wrap {
-    text-align: right !important;
+    text-align: left !important;
   }
   .card-section .card-head {
     font-size: 12px;
@@ -937,13 +944,10 @@ body {
     justify-content: space-between;
   }
   .testimonial-caption {
-    font-size: 20px;
+    font-size: 18px;
   }
   .service-caption {
     font-size: 20px;
-  }
-  .testimonial-label {
-    margin-bottom: -5px;
   }
   .reachme-label {
     font-size: 20px;
@@ -1017,9 +1021,6 @@ body {
   }
   .testimonial-section .card-spacer {
     margin-top: 0px;
-  }
-  .reachme-label {
-    font-size: 15px;
   }
   .testimonial-caption {
     text-align: left;
