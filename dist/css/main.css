@@ -90,7 +90,7 @@ body {
 /*------------------------------ Hero-Section ------------------------------*/
 .advocate-label {
   color: #000;
-  font-family: Donegal One;
+  font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -102,12 +102,12 @@ body {
   background: rgba(255, 255, 255, 0.4117647059);
   padding: 5px 5px 5px 10px;
   font-size: 20px;
-  font-family: Donegal One;
+  font-family: Inter;
 }
 
 .banner-focus-text {
   color: #000;
-  font-family: Donegal One;
+  font-family: Inter;
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
@@ -192,7 +192,7 @@ body {
 
 .shaper-service {
   border-radius: 10px 151px 0px 0px;
-  background: #F0EBE4;
+  background: #f0ebe4;
   padding: 74px 0px 41px 55px;
 }
 
@@ -205,7 +205,7 @@ body {
   padding: 8px;
   margin-right: 100px;
   border-radius: 10px;
-  background: #FFF;
+  background: #fff;
   box-shadow: none !important;
 }
 .card-section .card:hover {
@@ -278,7 +278,7 @@ body {
 }
 
 .Consultation-btn {
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Inter;
   font-size: 20px;
@@ -288,7 +288,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 10px;
-  background: #B96117;
+  background: #b96117;
   padding: 16px 16px 17px 16px;
 }
 
@@ -362,7 +362,7 @@ body {
 
 .testimonial-caption {
   color: #000;
-  font-family: Donegal One;
+  font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -371,42 +371,82 @@ body {
   text-transform: uppercase;
 }
 
+.shaper-testimonial {
+  border-radius: 10px 151px 0px 0px;
+  background: #f0ebe4;
+  padding: 74px 0px 41px 55px;
+}
+
 .testimonial-section {
   margin-top: 168px;
 }
 .testimonial-section .card {
-  width: 335px;
-  margin-left: 94px;
+  width: 310px;
+  height: 360px;
+  margin-right: 100px;
+}
+.testimonial-section .card-spacer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.testimonial-section .testimonial-img {
+  width: 63px;
+  height: 74.349px;
+  border-radius: 31.284px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .testimonial-section .person-name {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 36px;
+}
+.testimonial-section .card-text {
   color: #000;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-}
-.testimonial-section .card-text {
-  color: #000;
-  font-family: Inter;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.45px;
-}
-.testimonial-section .card-spacer {
-  margin-top: 110px;
+  line-height: 26px; /* 130% */
 }
 
 /* ------------------------------ Testimonial Section -------------------- */
 /* ------------------------------ Services Section -------------------- */
 .contact-section {
   margin-top: 100px;
+}
+.contact-section .contact-heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+}
+.contact-section .left {
+  margin-right: 68px;
+}
+.contact-section .contact-info {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px; /* 165% */
+}
+.contact-section .addrss-div {
+  width: 230px;
 }
 .contact-section .card {
   width: 300px;
