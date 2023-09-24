@@ -40,7 +40,9 @@ body {
   line-height: normal;
   margin-top: 2px;
 }
-
+#home{
+  margin-top: 5%;
+}
 .nav-link {
   color: #000;
   font-family: $primaryFont;
@@ -491,6 +493,14 @@ body {
     text-transform: capitalize;
     margin-bottom: 0px;
   }
+   .contact-heading
+  {
+    margin-bottom: 0px;
+  }
+  .adress:hover
+  {
+    text-decoration: underline;
+  }
 }
 .contact-link {
   font-size: 14px;
@@ -514,6 +524,7 @@ body {
     font-weight: 400;
     line-height: normal;
   }
+ 
 }
 
 /* Extra small devices (phones, 600px and down) */

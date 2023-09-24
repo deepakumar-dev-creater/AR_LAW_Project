@@ -36,6 +36,10 @@ body {
   margin-top: 2px;
 }
 
+#home {
+  margin-top: 5%;
+}
+
 .nav-link {
   color: #000;
   font-family: Inter;
@@ -494,6 +498,12 @@ body {
   letter-spacing: 0.42px;
   text-transform: capitalize;
   margin-bottom: 0px;
+}
+.contact-section .contact-heading {
+  margin-bottom: 0px;
+}
+.contact-section .adress:hover {
+  text-decoration: underline;
 }
 
 .contact-link {
