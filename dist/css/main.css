@@ -535,7 +535,8 @@ body {
   .contact-section .addrss-div {
     width: auto;
   }
-  .container, .container-sm {
+  .container,
+  .container-sm {
     max-width: 600px !important;
   }
   .advocate-badge {
@@ -583,7 +584,8 @@ body {
     width: 100%;
   }
   .card-title svg {
-    width: 10%;
+    width: 7%;
+    height: auto;
   }
   .card-section .card-head {
     font-size: 15px;
@@ -679,6 +681,19 @@ body {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 640px) {
+  .front-banner-left {
+    margin-top: 40px;
+  }
+  .navbar-toggler-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
   .services-sec {
     padding: 5px;
   }
@@ -970,6 +985,16 @@ body {
   .about-description {
     width: auto !important;
   }
+  .card-title svg {
+    width: 7%;
+    height: auto;
+  }
+}
+@media (min-width: 766px) {
+  .card-title svg {
+    width: 17%;
+    height: auto;
+  }
 }
 @media (min-width: 680px) and (max-width: 767px) {
   .img-wrap {
@@ -982,6 +1007,108 @@ body {
   }
   .testimonial-section .card {
     margin-right: 40px !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 251px) {
+  .contact-section .contact-info {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .contact-section a {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .footer-section .footer-description {
+    font-size: 8px;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+  .banner-focus-text {
+    font-size: 16px;
+  }
+  .banner-para {
+    font-size: 8px;
+    line-height: 19px;
+  }
+  .navbar-btn {
+    font-size: 10px;
+  }
+  .front-banner {
+    min-height: auto;
+  }
+  .service-caption {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .service-label {
+    font-size: 12px;
+  }
+  .card-section .card-head {
+    font-size: 12px;
+  }
+  .card-section .title-word-spacer {
+    margin-top: 10px;
+  }
+  .card-section .card-text {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+  .card-section .title-word-spacer-2 {
+    margin-top: 6px;
+  }
+  .card-title svg {
+    width: 12%;
+  }
+}
+@media (min-width: 251px) and (max-width: 352px) {
+  .banner-focus-text {
+    font-size: 20px;
+  }
+  .banner-para {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .navbar-btn {
+    font-size: 14px;
+  }
+  .front-banner {
+    min-height: auto;
+  }
+  .btn-spacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .advocate-badge {
+    font-size: 8px;
+  }
+  .service-caption {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .card-section .card-head {
+    font-size: 12px;
+  }
+  .card-section .title-word-spacer {
+    margin-top: 10px;
+  }
+  .card-section .card-text {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+  .card-section .title-word-spacer-2 {
+    margin-top: 6px;
+  }
+  .about-heading {
+    font-size: 20px;
+  }
+  .card-title svg {
+    width: 8%;
+    height: auto;
   }
 }
 @media (min-width: 640px) and (max-width: 680px) {

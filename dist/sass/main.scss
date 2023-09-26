@@ -39,7 +39,7 @@ body {
   line-height: normal;
   margin-top: 2px;
 }
-#home{
+#home {
   margin-top: 5%;
 }
 .nav-link {
@@ -186,6 +186,7 @@ body {
 .service-hammer-img {
   margin-left: 35px;
 }
+
 .shaper-service {
   border-radius: 10px 151px 0px 0px;
   background: #f0ebe4;
@@ -273,6 +274,7 @@ body {
   margin-top: 33px;
   width: 542px;
 }
+
 .Consultation-btn {
   color: #fff;
   text-align: right;
@@ -373,12 +375,10 @@ body {
     height: 360px;
     margin-right: 115px;
   }
-  .last-card
-  {
+  .last-card {
     margin-right: 20px;
   }
-  .card-spacer
-  {
+  .card-spacer {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -404,12 +404,12 @@ body {
   }
   .card-text {
     color: #000;
-  text-align: center;
-  font-family: $primaryFont;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 130% */
+    text-align: center;
+    font-family: $primaryFont;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
   }
 }
 /* ------------------------------ Testimonial Section -------------------- */
@@ -419,7 +419,7 @@ body {
 .contact-section {
   margin-top: 100px;
 
-  .contact-heading{
+  .contact-heading {
     color: #000;
     font-family: $primaryFont;
     font-size: 20px;
@@ -429,12 +429,10 @@ body {
     letter-spacing: 0.6px;
     text-transform: capitalize;
   }
-  .left
-  {
+  .left {
     margin-right: 68px;
   }
-  .contact-info
-  {
+  .contact-info {
     color: #000;
     font-family: $primaryFont;
     font-size: 20px;
@@ -442,8 +440,7 @@ body {
     font-weight: 500;
     line-height: 33px; /* 165% */
   }
-  .addrss-div
-  {
+  .addrss-div {
     width: 230px;
   }
   .card {
@@ -492,12 +489,10 @@ body {
     text-transform: capitalize;
     margin-bottom: 0px;
   }
-   .contact-heading
-  {
+  .contact-heading {
     margin-bottom: 0px;
   }
-  .adress:hover
-  {
+  .adress:hover {
     text-decoration: underline;
   }
 }
@@ -523,18 +518,15 @@ body {
     font-weight: 400;
     line-height: normal;
   }
- 
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 640px) {
-
-  .contact-section .addrss-div
-  {
+  .contact-section .addrss-div {
     width: auto;
   }
-  .container, .container-sm
-  {
+  .container,
+  .container-sm {
     max-width: 600px !important;
   }
   .advocate-badge {
@@ -583,7 +575,8 @@ body {
     width: 100%;
   }
   .card-title svg {
-    width: 10%;
+    width: 7%;
+    height: auto;
   }
   .card-section .card-head {
     font-size: 15px;
@@ -678,37 +671,46 @@ body {
   .front-banner .img-wrap {
     text-align: center;
   }
-  .card-section .card
-  {
+  .card-section .card {
     height: auto !important;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 640px) {
-  .services-sec
+  .front-banner-left
   {
+    margin-top: 40px;
+  }
+  .navbar-toggler-icon
+  {
+    width: 15px;
+    height: 15px;
+  }
+  .navbar-toggler {
+    font-size: 1.0rem;
+  }
+  .nav-link
+  {
+    font-size: 12px;
+  }
+  .services-sec {
     padding: 5px;
   }
   .shaper-service {
     padding: 30px 10px 41px 10px;
     border-radius: 0px;
   }
-  .about-description
-  {
+  .about-description {
     width: auto;
     font-size: 14px;
     line-height: 20px;
   }
-  .about-me-img
-  {
+  .about-me-img {
     width: 200px;
     height: auto;
   }
-  .front-banner-left{
-    // text-align: center;
-  }
-  .shaper-testimonial{
+  .shaper-testimonial {
     padding: 74px 10px 0px 10px;
     border-radius: 0px;
   }
@@ -763,7 +765,6 @@ body {
     height: auto !important;
   }
 
-
   .testimonial-section {
     margin-top: 50px;
   }
@@ -809,14 +810,11 @@ body {
   .card-section .card {
     margin-top: 0px;
     margin-bottom: 24px;
-
   }
-  .testimonial-cards
-  {
+  .testimonial-cards {
     justify-content: center;
   }
-  .card-section .card
-  {
+  .card-section .card {
     max-width: 96% !important;
     margin-right: 0px !important;
   }
@@ -831,54 +829,45 @@ body {
     margin-top: 0px;
   }
 
-  .Consultation-btn
-  {
+  .Consultation-btn {
     padding: 7px 7px 7px 7px;
     font-size: 10px;
   }
   .about-big-text {
     font-size: 24px;
   }
-  .about-small-text
-  {
-      font-size: 12px;
+  .about-small-text {
+    font-size: 12px;
   }
-  .contact-section .contact-info
-  {
+  .contact-section .contact-info {
     font-size: 15px;
   }
-  .contact-section .contact-heading
-  {
+  .contact-section .contact-heading {
     font-size: 16px;
     margin-bottom: 1px;
-
   }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
-  .card-section .card
-  {
+  .card-section .card {
     width: 90% !important;
   }
-  .card-section .card
-  {
+  .card-section .card {
     margin: 10px 0px 10px 0px;
     height: auto !important;
   }
-  .shaper-testimonial
-  {
+  .shaper-testimonial {
     padding: 74px 0px 41px 10px;
   }
 }
 @media (min-width: 640px) and (max-width: 680px) {
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     height: auto !important;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 }
-  @media (min-width: 901px) and (max-width: 1224px) {
+@media (min-width: 901px) and (max-width: 1224px) {
   .banner-focus-text {
     font-size: 40px;
   }
@@ -894,31 +883,25 @@ body {
   .contact-section .card {
     margin-right: 10px;
   }
-  .card-spacer
-  {
+  .card-spacer {
     justify-content: space-around;
   }
-  .testimonial-section .last-card
-  {
+  .testimonial-section .last-card {
     margin-top: 50px;
   }
   .shaper-testimonial {
     padding: 74px 20px 41px 20px;
-
   }
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     margin-right: 0px;
   }
-  .about-description
-  {
+  .about-description {
     width: auto;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 640px) and (max-width: 992px) {
-  .card-section .card
-  {
+  .card-section .card {
     height: auto !important;
   }
   .banner-focus-text {
@@ -956,24 +939,19 @@ body {
   .card-section .card {
     width: 30%;
     max-width: 70% !important;
-
   }
-  .card-wrap
-  {
+  .card-wrap {
     justify-content: center;
   }
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     max-width: 50% !important;
     margin-right: 10px;
   }
-  .testimonial-section .last-card
-  {
+  .testimonial-section .last-card {
     margin-top: 10px !important;
   }
-  .testimonial-cards
-  {
-    justify-content: center ;
+  .testimonial-cards {
+    justify-content: center;
   }
   .testimonial-section .person-name {
     font-size: 16px;
@@ -994,7 +972,6 @@ body {
     font-size: 20px;
   }
 
-
   .reachme-label {
     font-size: 20px;
   }
@@ -1010,31 +987,148 @@ body {
   }
   .shaper-service {
     padding: 74px 0px 25px 25px;
-
   }
   .contact-section .card {
     margin-right: 0px;
   }
-  .about-description
-  {
+  .about-description {
     width: auto !important;
+  }
+  .card-title svg {
+    width: 7%;
+    height: auto;
   }
 }
 
+@media (min-width: 766px) {
+   .card-title svg {
+    width: 17%;
+    height: auto;
+  }
+}
 @media (min-width: 680px) and (max-width: 767px) {
-  .img-wrap
-  {
-    text-align:  center !important;
+  .img-wrap {
+    text-align: center !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .testimonial-section .last-card
-  {
+  .testimonial-section .last-card {
     margin-top: 0px;
   }
-  .testimonial-section .card
-  {
+  .testimonial-section .card {
     margin-right: 40px !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 251px) {
+  .contact-section .contact-info {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .contact-section a {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .footer-section .footer-description {
+    font-size: 8px;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+  .banner-focus-text {
+    font-size: 16px;
+  }
+  .banner-para {
+    font-size: 8px;
+    line-height: 19px;
+  }
+  .navbar-btn {
+    font-size: 10px;
+  }
+  .front-banner {
+    min-height: auto;
+  }
+  .service-caption
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .service-label {
+    font-size: 12px;
+  }
+
+  .card-section .card-head {
+    font-size:12px; 
+   }
+   .card-section .title-word-spacer {
+    margin-top: 10px;
+   }
+   .card-section .card-text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 20px;
+      margin-top: 15px;
+   }
+
+   .card-section .title-word-spacer-2 {
+    margin-top: 6px;
+   }
+   .card-title svg
+   {
+    width: 12%;
+   }
+}
+
+@media (min-width: 251px) and (max-width: 352px) {
+  .banner-focus-text {
+    font-size: 20px;
+  }
+  .banner-para {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .navbar-btn {
+    font-size: 14px;
+  }
+  .front-banner {
+    min-height: auto;
+  }
+  .btn-spacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .advocate-badge
+  {
+    font-size: 8px;
+  }
+  .service-caption
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .card-section .card-head {
+    font-size:12px; 
+   }
+   .card-section .title-word-spacer {
+    margin-top: 10px;
+   }
+   .card-section .card-text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 20px;
+      margin-top: 15px;
+   }
+
+   .card-section .title-word-spacer-2 {
+    margin-top: 6px;
+   }
+   .about-heading
+   {
+    font-size: 20px;
+   }
+   .card-title svg {
+    width: 8%;
+    height: auto;
   }
 }
 
@@ -1055,8 +1149,6 @@ body {
   }
   .card-section .card-text {
     font-size: 12px;
-  }
-  .card-title svg {
   }
   .services-sec .card-body {
     padding: 2px;
@@ -1097,7 +1189,6 @@ body {
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
- 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
