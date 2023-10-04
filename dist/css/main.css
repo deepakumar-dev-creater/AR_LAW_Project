@@ -107,6 +107,7 @@ body {
   padding: 5px 5px 5px 10px;
   font-size: 20px;
   font-family: Inter;
+  display: inline;
 }
 
 .banner-focus-text {
