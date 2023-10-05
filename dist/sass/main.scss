@@ -700,7 +700,8 @@ body {
   }
   .shaper-service {
     padding: 30px 10px 41px 10px;
-    border-radius: 0px;
+    border-radius: 10px 100px 0px 0px;
+    margin-top: 50px;
   }
   .about-description {
     width: auto;
@@ -713,7 +714,7 @@ body {
   }
   .shaper-testimonial {
     padding: 74px 10px 0px 10px;
-    border-radius: 0px;
+    border-radius: 0px 100px 0px 0px;
   }
   .about-heading {
     font-size: 30px;
@@ -1010,6 +1011,14 @@ body {
 @media (min-width: 680px) and (max-width: 767px) {
   .img-wrap {
     text-align: center !important;
+  }
+
+}
+// 756 and 900
+@media (min-width: 756px) and (max-width: 900px) {
+  .shaper-testimonial {
+    padding: 74px 0px 16px 18px;
+
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
